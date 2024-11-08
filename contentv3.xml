@@ -1,0 +1,3115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value="Creciendo en salud"></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addSearchBox"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value="Antonio Vicho Rubio, Matilde Tejeda, María Isabel Barbancho, Anastasia González y María José Cuevas para Programa CREA (Innovated)."></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value="presencial"></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value="classroom"></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value="REA interdisciplinar de proyecto CREA destinado a dar respuesta a la necesidad real, detectada en los alumnos de nuestro centro, de educar en hábitos de vida saludables. Los alumnos tienen como reto la creación de una guía saludable para ellos y sus compañeros."></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_exportElp"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value="&lt;style&gt;
+
+.listaResaltada
+{ border-left: 6px solid #12BEC9; 
+margin-left: 30px; 
+background-color: #12bec90e; 
+padding-top: 3pt;
+padding-bottom:3pt;}
+
+
+.listaGuion li {
+list-style-type: none;
+position: relative;
+}
+
+.listaGuion li::before {
+content: &quot;-&quot;; /* Indica el separador que vamos a utilizar */
+left: -32px;
+position: absolute;
+text-align: right;
+width: 26px;
+}
+
+.listaCheck li {
+list-style-type: none;
+position: relative;
+}
+
+.listaCheck li::before {
+color: #53b528;
+content: &quot;✔&quot;; /* Indica el separador que vamos a utilizar */
+left: -32px;
+position: absolute;
+text-align: right;
+width: 26px;
+}
+
+.listaInfantil
+{ border-left: 6px solid #fd8b31; 
+margin-left: 30px; 
+background-color: #f5f5ff; 
+padding-top: 3pt;
+padding-bottom:3pt;}
+
+.muestraOcultaSiguiente {
+  cursor: pointer;
+}
+.muestraOcultaSiguiente + * {
+  display: none;
+}
+.muestraOcultaSiguiente.visible + * {
+  display: block;
+}
+.muestraOcultaSiguiente.clicable + * {
+  cursor: pointer;
+}
+
+.muestraOcultaSiguiente.conMarca {
+  /* Usamos el pseudo-elemento ::before para insertar un chevron */
+  position: relative;
+  padding-left: 40px;
+}
+.muestraOcultaSiguiente.conMarca + * {
+  position: relative;
+  padding-left: 40px;
+}
+.muestraOcultaSiguiente.conMarca::before {
+  content: &quot;▶&quot;;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  font-size: 0.9em;
+
+  /* Añadimos la propiedad transition con el valor transform 1s ease-in */
+  transition: transform 0.2s ease-in;
+}
+/* Si el elemento tiene el atributo visible, rotamos el chevron 90 grados */
+.muestraOcultaSiguiente.conMarca.visible::before {
+  transform: rotate(90deg);
+}
+
+
+@keyframes desplegar {
+      /* El primer paso es cuando el texto está oculto */
+      0% {
+        opacity: 0;
+        overflow: hidden;
+      }
+      100% {
+        opacity: 100%;
+        overflow: visible;
+      }
+    }
+
+
+/* Aplicamos la animación al texto cuando tiene la clase visible */
+/*.muestraOcultaSiguiente.visible + * { */
+  /* Indicamos el nombre de la animación, la duración y el número de repeticiones */
+/*  animation: desplegar 0.7s 1;*/
+/*}*/
+
+    .tabla-ordenable th {
+        cursor: pointer;
+    }
+   .tabla-ordenable td.numero-fila {
+        text-align: center;
+        font-size: small;
+    }
+&lt;/style&gt;
+"></unicode>
+  <string role="key" value="_fieldValidationInfo"></string>
+  <dictionary>
+   <unicode role="key" value="all"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_title"></unicode>
+     <unicode value="pp_lang"></unicode>
+     <unicode value="pp_description"></unicode>
+     <unicode value="pp_author"></unicode>
+     <unicode value="pp_newlicense"></unicode>
+    </list>
+   </dictionary>
+   <unicode role="key" value="procomun"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_learningResourceType"></unicode>
+    </list>
+    <unicode role="key" value="values_from_list"></unicode>
+    <dictionary>
+     <unicode role="key" value="pp_learningResourceType"></unicode>
+     <list>
+      <unicode value="master class"></unicode>
+      <unicode value="closed exercise or problem"></unicode>
+      <unicode value="real project"></unicode>
+      <unicode value="didactic game"></unicode>
+      <unicode value="webquest"></unicode>
+      <unicode value="open problem"></unicode>
+      <unicode value="simulation"></unicode>
+      <unicode value="questionnaire"></unicode>
+      <unicode value="conceptual map"></unicode>
+     </list>
+    </dictionary>
+   </dictionary>
+  </dictionary>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value="learner"></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="Tarea_3.4.Definitiva"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="21"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="11"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="4">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Creciendo en salud"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Creciendo en salud"></unicode>
+        <string role="key" value="_attributes"></string>
+        <list>
+         <tuple>
+          <string value="title"></string>
+          <list>
+           <string value="Title"></string>
+           <int value="0"></int>
+           <int value="0"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="category"></string>
+          <list>
+           <string value="Category"></string>
+           <int value="0"></int>
+           <int value="1"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="css-class"></string>
+          <list>
+           <string value="CSS class"></string>
+           <int value="0"></int>
+           <int value="2"></int>
+          </list>
+         </tuple>
+         <tuple>
+          <string value="icon"></string>
+          <list>
+           <string value="Icon"></string>
+           <int value="0"></int>
+           <int value="3"></int>
+          </list>
+         </tuple>
+        </list>
+        <string role="key" value="_author"></string>
+        <string value=""></string>
+        <string role="key" value="_iDeviceDir"></string>
+        <string value="text"></string>
+        <string role="key" value="_purpose"></string>
+        <string value=""></string>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="_typeName"></string>
+        <unicode value="Text"></unicode>
+        <string role="key" value="_valid"></string>
+        <bool value="1"></bool>
+        <string role="key" value="class_"></string>
+        <unicode value="text"></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="1"></int>
+        <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+        <int value="1"></int>
+        <string role="key" value="fields"></string>
+        <list>
+         <instance class="exe.engine.field.TextAreaField" reference="3">
+          <dictionary>
+           <string role="key" value="_id"></string>
+           <unicode value="353_2"></unicode>
+           <string role="key" value="_idevice"></string>
+           <reference key="1"></reference>
+           <string role="key" value="_instruc"></string>
+           <string value=""></string>
+           <string role="key" value="_name"></string>
+           <string value=""></string>
+           <string role="key" value="anchor_names"></string>
+           <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
+           <string role="key" value="content_w_resourcePaths"></string>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Los &lt;strong&gt;hábitos de vida saludables&lt;/strong&gt; son estilos de vida y de comportamiento, que tienen que ver con la alimentación, la higiene, la actividad física, la protección y el autocuidado, el tiempo de ocio, las relaciones personales… &lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 560px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/soil-8080788_640_560x315.jpg&quot; alt=&quot;Planta&quot; title=&quot;Planta. Imagen&quot; width=&quot;560&quot; height=&quot;315&quot; style=&quot;border-radius: 10px;&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a href=&quot;https://pixabay.com/es/users/thophilong-10302279/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Thophilong&lt;/a&gt;. &lt;a href=&quot;https://pixabay.com/es/photos/suelo-plantas-crecer-agricultura-8080788/&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Planta&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;custom-license&quot;&gt;Licencia Pixabay&lt;/span&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Invertir en la calidad de nuestra vida merece mucho la pena, para ello nos podemos ayudar de diferentes hábitos, que con dedicarle una pequeña cantidad de tiempo cada día podremos notar en muy poco tiempo como nos sentimos mucho mejor tanto física como psicológicamente. Un ejemplo muy sencillo es el siguiente: reír.&lt;/p&gt;
+&lt;h3&gt;¿Sabías que la risa es saludable?  &lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;La &lt;strong&gt;risa&lt;/strong&gt; no solo nos hace más felices sino que además nos vuelve más sociales, sirve para relajarnos y nos pone alertas. Pero más allá de todo esto, la risa trae muchos beneficios que se relacionan directamente con nuestra salud.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Reír representa grandes &lt;strong&gt;beneficios para el corazón y el sistema inmunológico&lt;/strong&gt;. Interesante,¿no? Cuando reímos nuestros vasos sanguíneos se dilatan y en consecuencia la sangre fluye mejor; es por eso que se dice que es bueno para la tensión sanguínea y para tener un corazón saludable.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 560px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/smiley-2979107_640_560x315.jpg&quot; alt=&quot;Risa&quot; title=&quot;Risa. Imagen&quot; width=&quot;560&quot; height=&quot;315&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a href=&quot;https://pixabay.com/es/users/absolutvision-6158753/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;AbsolutVision&lt;/a&gt;. &lt;a href=&quot;https://pixabay.com/es/photos/smiley-emoticon-enojar-enfadado-2979107/&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Risa&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;custom-license&quot;&gt;Licencia Pixabay&lt;/span&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;En cuanto al sistema inmunológico, cuando reímos generamos más cantidad de anticuerpos, antibióticos naturales de nuestro organismo que nos defienden de las enfermedades. &lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;La risa ayuda también a un &lt;strong&gt;buen funcionamiento de nuestra mente&lt;/strong&gt;, nos predispone a las relaciones sociales, pero además nos ayuda a enfrentar situaciones difíciles como pérdidas o decepciones. Cuando reímos es porque una situación nos parece divertida y muy graciosa, por esto es que es imposible reírse y estar triste al mismo tiempo.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;En el vídeo &quot;&lt;a href=&quot;https://youtu.be/egzZzTHC9d4?si=LRht65zYFnclbDPA&quot; target=&quot;_blank&quot; rel=&quot;lightbox noopener&quot; title=&quot;Vídeo: 8 Beneficios de la risa científicamente demostrados&quot;&gt;8 Beneficios de la risa científicamente demostrados&lt;/a&gt;&quot;, podremos ver los beneficios que nos aporta la risa.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;¡Espero que os guste!&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+           <int value="4"></int>
+           <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="htmlTag"></string>
+           <string value="div"></string>
+           <string role="key" value="images"></string>
+           <instance class="exe.engine.galleryidevice.GalleryImages">
+            <dictionary>
+             <string role="key" value=".listitems"></string>
+             <list>
+              <instance class="exe.engine.galleryidevice.GalleryImage">
+               <dictionary>
+                <string role="key" value="_caption"></string>
+                <instance class="exe.engine.field.TextField">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="2108457"></int>
+                  <string role="key" value="_idevice"></string>
+                  <none></none>
+                  <string role="key" value="_instruc"></string>
+                  <string value=""></string>
+                  <string role="key" value="_name"></string>
+                  <string value=""></string>
+                  <string role="key" value="content"></string>
+                  <string value=""></string>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_id"></string>
+                <unicode value="0_353_2.136"></unicode>
+                <string role="key" value="_imageResource"></string>
+                <instance class="exe.engine.resource.Resource" reference="5">
+                 <dictionary>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="1"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="2"></reference>
+                  <string role="key" value="_storageName"></string>
+                  <string value="smiley-2979107_640_560x315.jpg"></string>
+                  <string role="key" value="_userName"></string>
+                  <string value="c:\\users\\fatim\\appdata\\local\\temp\\tmpvs1mq1\\smiley-2979107_640_560x315.jpg"></string>
+                  <string role="key" value="checksum"></string>
+                  <string value="0232377c811a55196ea195f68b7993c5"></string>
+                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="warningMsg"></string>
+                  <string value=""></string>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_parent"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_thumbnailResource"></string>
+                <none></none>
+                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="makeThumbnail"></string>
+                <bool value="0"></bool>
+               </dictionary>
+              </instance>
+              <instance class="exe.engine.galleryidevice.GalleryImage">
+               <dictionary>
+                <string role="key" value="_caption"></string>
+                <instance class="exe.engine.field.TextField">
+                 <dictionary>
+                  <string role="key" value="_id"></string>
+                  <int value="2108458"></int>
+                  <string role="key" value="_idevice"></string>
+                  <none></none>
+                  <string role="key" value="_instruc"></string>
+                  <string value=""></string>
+                  <string role="key" value="_name"></string>
+                  <string value=""></string>
+                  <string role="key" value="content"></string>
+                  <string value=""></string>
+                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                  <int value="4"></int>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_id"></string>
+                <unicode value="0_353_2.137"></unicode>
+                <string role="key" value="_imageResource"></string>
+                <instance class="exe.engine.resource.Resource" reference="6">
+                 <dictionary>
+                  <string role="key" value="_idevice"></string>
+                  <reference key="1"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="2"></reference>
+                  <string role="key" value="_storageName"></string>
+                  <string value="soil-8080788_640_560x315.jpg"></string>
+                  <string role="key" value="_userName"></string>
+                  <string value="c:\\users\\fatim\\appdata\\local\\temp\\tmpvs1mq1\\soil-8080788_640_560x315.jpg"></string>
+                  <string role="key" value="checksum"></string>
+                  <string value="1e914ba27aa97a6b8fb7fa92017439eb"></string>
+                  <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                  <int value="2"></int>
+                  <string role="key" value="warningMsg"></string>
+                  <string value=""></string>
+                 </dictionary>
+                </instance>
+                <string role="key" value="_parent"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_thumbnailResource"></string>
+                <none></none>
+                <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="makeThumbnail"></string>
+                <bool value="0"></bool>
+               </dictionary>
+              </instance>
+             </list>
+             <string role="key" value="idevice"></string>
+             <reference key="3"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="intlinks_to_anchors"></string>
+           <dictionary></dictionary>
+           <string role="key" value="nextImageId"></string>
+           <int value="138"></int>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="icon"></string>
+        <unicode value="udl_exp_leeN"></unicode>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="ideviceCategory"></string>
+        <unicode value="Text and Tasks"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="nextFieldId"></string>
+        <int value="3"></int>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="4"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list>
+         <reference key="5"></reference>
+         <reference key="6"></reference>
+        </list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="2"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="website"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Creciendo%20en%20salud"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="9">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Nos organizamos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="7">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Cómo nos organizamos"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="8">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="357_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="7"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;En este apartado conoceremos cómo organizarnos para poder desarrollar las actividades planteadas. Te explico lo que vamos a hacer en clase y las tareas que tienes que hacer.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 560px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/kids-1093758_640_1_560x315.jpg&quot; alt=&quot;Trabajando en equipo&quot; title=&quot;Trabajando en equipo. Imagen&quot; width=&quot;560&quot; height=&quot;315&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a href=&quot;https://pixabay.com/es/users/klimkin-1298145/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Klimkin&lt;/a&gt;. &lt;a href=&quot;https://pixabay.com/es/photos/ni%C3%B1os-muchachas-escribiendo-l%C3%A1piz-1093758/&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Trabajando en equipo&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;custom-license&quot;&gt;Licencia Pixabay&lt;/span&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Realizaremos &lt;strong&gt;actividades&lt;/strong&gt; de diferentes tipos: &lt;/p&gt;
+&lt;ul class=&quot;listaResaltada&quot;&gt;
+&lt;li&gt;Ponencias sobre las temáticas planteadas.&lt;/li&gt;
+&lt;li&gt;Elaboración de carteles.&lt;/li&gt;
+&lt;li&gt;Realización de vídeos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En todas las actividades tienes que tener claro:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Los agrupamientos: algunas actividades las realizaremos en conjunto toda la clase, y otras en grupos reducidos: elige tu grupo de 2 o 3 personas para realizar distintas actividades planteadas. En cada actividad viene señalado que tipo de agrupamiento vamos a utilizar.&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;En las actividades podrás comprobar qué es la &lt;a href=&quot;#t63935f3d-a579-0ad8-1918-dc660b9a7953&quot; id=&quot;link63935f3d-a579-0ad8-1918-dc660b9a7953&quot; class=&quot;exe-tooltip definition-tt titled-tt&quot; title=&quot;Interdisciplinariedad | Interdisciplinariedad&quot;&gt;interdisciplinariedad&lt;/a&gt;, es decir con que materias está relacionada la actividad.&lt;/li&gt;
+&lt;li&gt;A continuación, detallamos la actividad a desarrollar, con lo que pretendemos conseguir y realizar.&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Y para acabar, como ayuda para que puedas desarrollar la actividad sin problema, aparecen unos tutoriales sobre las distintas herramientas que podemos utilizar para llevar a cabo las tareas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&quot;t63935f3d-a579-0ad8-1918-dc660b9a7953&quot; class=&quot;exe-tooltip-text&quot;&gt;
+&lt;p&gt;Cuando trabajamos varias asignaturas (&quot;disciplinas&quot;) a la vez&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="2108455"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="2_357_2.68"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="10">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="kids-1093758_640_1_560x315.jpg"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\fatim\\appdata\\local\\temp\\tmpvs1mq1\\kids-1093758_640_1_560x315.jpg"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="94f3d8c5740b5ffb989a20d5bc74fcff"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="8"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="69"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="9"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="udl_exp_leeN"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="9"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="10"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Creciendo%20en%20salud:Nos%20organizamos"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="13">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Autocuidados y accidentabilidad "></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="¿Qué vamos hacer?"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="text"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Text"></unicode>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="text"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="12">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="471_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="11"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;El objetivo es que desarrolléis &lt;strong&gt;hábitos saludables, así como prevenir la accidentabilidad,&lt;/strong&gt; que perduren durante la vida para prevenir problemas de salud actuales y futuros.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 560px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/first-aid-1882053_640_560x315.jpg&quot; alt=&quot;Primeros auxilios&quot; title=&quot;Primeros auxilios. Imagen&quot; width=&quot;560&quot; height=&quot;315&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a href=&quot;https://pixabay.com/es/users/aebopleidingen-3921414/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Aebopleidingen&lt;/a&gt;. &lt;a href=&quot;https://pixabay.com/es/photos/primeros-auxilios-relacionados-con-la-1882053/&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Primeros auxilios&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;custom-license&quot;&gt;Licencia Pixabay&lt;/span&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Para la realización  de algunas de las actividades de esta sección necesitaremos la colaboración de la comunidad educativa, ya que buscaremos la ayuda de profesionales dedicados a los contenidos que desarrollaremos en las actividades.&lt;/p&gt;
+&lt;p&gt;En cuanto a las actividades, realizaremos las siguientes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;RCP y maniobra de Heimlich.&lt;/li&gt;
+&lt;li&gt;Hábitos Nocivos.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;exe-fx exe-paginated&quot;&gt;
+&lt;h2&gt;Primeros Auxilios (RCP y Maniobra de Heimlich)&lt;/h2&gt;
+&lt;p style=&quot;text-align: right;&quot;&gt;&lt;strong&gt;Organización&lt;/strong&gt;: Gran grupo y grupos reducidos&lt;/p&gt;
+&lt;p style=&quot;text-align: right;&quot;&gt;&lt;strong&gt;Interdisciplinariedad&lt;/strong&gt;: Biología y Geología, Educación Física y Lengua&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Realizaremos una &lt;strong&gt;Jornada de Formación&lt;/strong&gt; en clase de una hora aproximadamente de duración, con especialistas en la materia: &lt;strong&gt;RCP y Maniobra de Heimlich&lt;/strong&gt;. Aprenderéis cómo realizar una maniobra de reanimación cardiopulmonar y la maniobra de Heimlich frente a un atragantamiento. Así podréis comprobar dos cosas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tomar conciencia&lt;/strong&gt; de la gran labor que hacer los médicos y sanitarios que salvan vidas a diario con estas prácticas.&lt;/li&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;Realización práctica&lt;/strong&gt; de la maniobra de reanimación cardiopulmonar y la maniobra de Heimlich, en caso de que fuese necesario.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 560px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/cpr-6544401_640_560x315.jpg&quot; alt=&quot;RCP&quot; title=&quot;RCP. Imagen&quot; width=&quot;560&quot; height=&quot;315&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a href=&quot;https://pixabay.com/es/users/3345557-3345557/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;3345557&lt;/a&gt;. &lt;a href=&quot;https://pixabay.com/es/photos/rcp-las-manos-m%C3%A9dico-emergencia-6544401/&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;RCP&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;custom-license&quot;&gt;Licencia Pixabay&lt;/span&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Posteriormente debéis realizar un vídeo en grupo, dónde simuléis que realizáis un RCP a una persona y la maniobra de Heimlich a otra, explicando los pasos de cada una de ellas. El vídeo se enviará como trae a través de classroom.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;text-align: left;&quot;&gt;Herramientas gratuitas para editar vídeos y usarlos en el aula  &lt;a href=&quot;https://www.educaciontrespuntocero.com/recursos/programas-gratuitos-editar-videos/&quot;&gt;https://www.educaciontrespuntocero.com/recursos/programas-gratuitos-editar-videos/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;¡No a los hábitos nocivos!&lt;/h2&gt;
+&lt;p style=&quot;text-align: right;&quot;&gt;&lt;strong&gt;Organización&lt;/strong&gt;: Grupos reducidos&lt;/p&gt;
+&lt;p style=&quot;text-align: right;&quot;&gt;&lt;strong&gt;Interdisciplinariedad&lt;/strong&gt;: Biología y Geología, Lengua, Educación Plástica y Visual&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt; Según la OMS, la mayoría de los adolescentes no hace la suficiente actividad física. Pero la falta de actividad física no es el único problema: existen otras conductas poco saludables que, cuando se convierten en habituales, reciben el nombre de &lt;strong&gt;hábitos tóxicos&lt;/strong&gt; o hábitos nocivos.&lt;/p&gt;
+&lt;p&gt;Para combatir esos hábitos tóxicos, vamos a &lt;strong&gt;promocionar los buenos hábitos&lt;/strong&gt; entre nuestros compañeros, en nuestra aula y en el resto de cursos de nuestro centro instituto. Lo haremos mediante &lt;strong&gt;carteles&lt;/strong&gt;, que serán expuestos en un lugar bien visible del centro: en un pasillo o en el vestíbulo de la entrada, por ejemplo.&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center license-custom&quot; style=&quot;width: 560px; text-align: center;&quot;&gt;&lt;img src=&quot;resources/sleepwalker-3499602_640_560x315.jpg&quot; alt=&quot;Insomnio&quot; title=&quot;Insomnio. Imagen&quot; width=&quot;560&quot; height=&quot;315&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a href=&quot;https://pixabay.com/es/users/engin_akyurt-3656355/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Engin_Akyurt&lt;/a&gt;. &lt;a href=&quot;https://pixabay.com/es/photos/son%C3%A1mbulo-dormir-insomnio-sue%C3%B1o-3499602/&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener&quot;&gt;&lt;em&gt;Insomnio&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;custom-license&quot;&gt;Licencia Pixabay&lt;/span&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;Hábitos tóxicos en los adolescentes&lt;/h3&gt;
+&lt;p&gt;Los hábitos nocivos o tóxicos son conductas repetidas que perjudican seriamente la salud. Para empezar, mirad esta presentación en la que se habla de los hábitos nocivos para la salud. Son varios los hábitos nocivos que pueden afectar a los chicos y a las chicas de vuestra edad. Vamos a echar un vistazo a esta &lt;strong&gt;presentación&lt;/strong&gt; sobre &lt;a href=&quot;https://es.slideshare.net/jolulato/hbitos-nocivos-para-la-salud&quot; target=&quot;_blank&quot; title=&quot;Presentación. Abre en ventana nueva&quot; rel=&quot;noopener&quot;&gt;hábitos nocivos para la salud&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sedentarismo&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Uno de los hábitos nocivos más extendidos es el sedentarismo, consistente en un &lt;strong&gt;estilo de vida con poca actividad física&lt;/strong&gt;. Es un verdadero problema de salud. Un estilo de vida sedentario, con un bajo grado de actividad física, conlleva un bajo gasto energético, y supone un factor de riesgo en la edad adulta, para la aparición de enfermedades cardiovasculares y otras enfermedades crónicas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Insomnio tecnológico&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;En los últimos años apareció un nuevo hábito tóxico, conocido como insomnio tecnológico. Consiste en un &lt;strong&gt;uso prolongado de las nuevas tecnologías&lt;/strong&gt; (móvil, consola) antes de dormir, robando horas al sueño. Este hábito está asociado con menos sueño y más somnolencia diurna: es un problema que está en aumento. Los adolescentes cada vez duermen menos horas por culpa del móvil. Muchos tienen la percepción de que dormir es una pérdida de tiempo.&lt;/p&gt;
+&lt;ul&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Tarea a entregar&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Trabajaremos en &lt;strong&gt;equipos de dos o tres&lt;/strong&gt; personas con el objetivo de &lt;strong&gt;elaborar carteles&lt;/strong&gt; que resuman la información más importante que hemos investigado y nuestras reflexiones y aportaciones. &lt;/p&gt;
+&lt;ul class=&quot;listaResaltada&quot;&gt;
+&lt;li&gt;Realizaremos carteles con diseño libre por parte de los integrantes del grupo. &lt;/li&gt;
+&lt;li&gt;Podemos emplear papel recortado y otros materiales reciclados para crear formas abstractas o figurativas.&lt;/li&gt;
+&lt;li&gt;Los carteles tendrán que tener un tamaño medio o grande: por ejemplo, un formato DIN A3 (297×420 mm).&lt;/li&gt;
+&lt;li&gt;Es posible realizar los carteles de modo digital y posteriormente se imprimirán. Para ello se usará canva, genially, power point...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los &lt;strong&gt;carteles&lt;/strong&gt; darán respuesta a alguna de estas &lt;strong&gt;cuestiones&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class=&quot;listaResaltada&quot;&gt;
+&lt;li&gt;¿Cuáles son los principales hábitos tóxicos en los adolescentes?&lt;/li&gt;
+&lt;li&gt;¿Qué problemas ocasionan estos hábitos tóxicos?&lt;/li&gt;
+&lt;li&gt;¿Qué propuestas se os ocurren para evitar los hábitos tóxicos?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Una vez terminados los carteles, los colgaremos en las paredes de clase y todos podremos valorarlos, añadiendo comentarios con post-its. Debemos tomar fotos de los carteles o escanearlos, si los habéis hecho a mano para poder enviarlos por classroom. Si el cartel es digital, entonces envía el archivo directamente por classroom.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Tutoriales&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cómo hacer un &lt;a href=&quot;https://youtu.be/Mnf6tp2VH4s?si=tEezSp0o0RBZ1QVo&quot; target=&quot;_blank&quot; rel=&quot;lightbox noopener&quot; title=&quot;Vídeo: Tutorial Genial.ly&quot;&gt;Genial.ly&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Cómo hacer un &lt;a href=&quot;https://youtu.be/UzAHubCqyHo?si=ZJAGMR6k1WeTAeUS&quot; target=&quot;_blank&quot; title=&quot;Vídeo: Tutorial Powerpoint&quot; rel=&quot;lightbox noopener&quot;&gt;Powerpoint&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Cómo hacer un &lt;a href=&quot;https://youtu.be/kdE6ZmT_5MI?si=GSCs0Y1pucmvCJ5a&quot; target=&quot;_blank&quot; rel=&quot;lightbox noopener&quot; title=&quot;Vídeo: Tutorial Canva&quot;&gt;Canva&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;iDevice_buttons feedback-button js-required&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;feedbackbutton&quot; value=&quot;Evaluación&quot; /&gt;&lt;/div&gt;&lt;div class=&quot;feedback js-feedback js-hidden&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Para evaluar este apartado se va usar la siguiente rúbrica. Puedes revisarla para asegurarte de qué tu tarea está completa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rúbrica: Autocuidados y Accidentabilidad&lt;/strong&gt; (que podemos ver en la sección de abajo).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Diario de aprendizaje: Reflexionamos&lt;/h3&gt;
+&lt;p&gt;Una vez entregada tu tarea respondemos a las siguientes preguntas de forma individual, también por classroom:&lt;/p&gt;
+&lt;ul class=&quot;listaResaltada&quot;&gt;
+&lt;li&gt;¿Te han gustado las actividades realizadas?&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;¿Qué actividad te ha gustado más?&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;¿Cuál ha sido la que menos te ha gustado?&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;¿Has aprendido algo nuevo?&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="2108453"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="5_471_2.308"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="14">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="11"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="2"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="cpr-6544401_640_560x315.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\fatim\\appdata\\local\\temp\\tmpvs1mq1\\cpr-6544401_640_560x315.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="fb2283ea557fed1c31bff48e6c21d9b6"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="12"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="2108454"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="5_471_2.309"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="15">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="11"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="2"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="first-aid-1882053_640_560x315.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\fatim\\appdata\\local\\temp\\tmpvs1mq1\\first-aid-1882053_640_560x315.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="4fdd4a6843e73052dac9532b483a06fd"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="12"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                    <instance class="exe.engine.galleryidevice.GalleryImage">
+                     <dictionary>
+                      <string role="key" value="_caption"></string>
+                      <instance class="exe.engine.field.TextField">
+                       <dictionary>
+                        <string role="key" value="_id"></string>
+                        <int value="2108456"></int>
+                        <string role="key" value="_idevice"></string>
+                        <none></none>
+                        <string role="key" value="_instruc"></string>
+                        <string value=""></string>
+                        <string role="key" value="_name"></string>
+                        <string value=""></string>
+                        <string role="key" value="content"></string>
+                        <string value=""></string>
+                        <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                        <int value="4"></int>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_id"></string>
+                      <unicode value="5_471_2.310"></unicode>
+                      <string role="key" value="_imageResource"></string>
+                      <instance class="exe.engine.resource.Resource" reference="16">
+                       <dictionary>
+                        <string role="key" value="_idevice"></string>
+                        <reference key="11"></reference>
+                        <string role="key" value="_package"></string>
+                        <reference key="2"></reference>
+                        <string role="key" value="_storageName"></string>
+                        <string value="sleepwalker-3499602_640_560x315.jpg"></string>
+                        <string role="key" value="_userName"></string>
+                        <string value="c:\\users\\fatim\\appdata\\local\\temp\\tmpvs1mq1\\sleepwalker-3499602_640_560x315.jpg"></string>
+                        <string role="key" value="checksum"></string>
+                        <string value="17a6f9c17df7dff65dbdcb387c417de9"></string>
+                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                        <int value="2"></int>
+                        <string role="key" value="warningMsg"></string>
+                        <string value=""></string>
+                       </dictionary>
+                      </instance>
+                      <string role="key" value="_parent"></string>
+                      <reference key="12"></reference>
+                      <string role="key" value="_thumbnailResource"></string>
+                      <none></none>
+                      <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                      <int value="3"></int>
+                      <string role="key" value="makeThumbnail"></string>
+                      <bool value="0"></bool>
+                     </dictionary>
+                    </instance>
+                   </list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="12"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="311"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="13"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value="udl_exp_leeN"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="5"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Text and Tasks"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="13"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list>
+               <reference key="14"></reference>
+               <reference key="15"></reference>
+               <reference key="16"></reference>
+              </list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.jsidevice.JsIdevice" reference="17">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Rúbrica: Autocuidados y accidentabilidad"></unicode>
+              <string role="key" value="_attributes"></string>
+              <list>
+               <tuple>
+                <string value="title"></string>
+                <list>
+                 <string value="Title"></string>
+                 <int value="0"></int>
+                 <int value="0"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="category"></string>
+                <list>
+                 <string value="Category"></string>
+                 <int value="0"></int>
+                 <int value="1"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="css-class"></string>
+                <list>
+                 <string value="CSS class"></string>
+                 <int value="0"></int>
+                 <int value="2"></int>
+                </list>
+               </tuple>
+               <tuple>
+                <string value="icon"></string>
+                <list>
+                 <string value="Icon"></string>
+                 <int value="0"></int>
+                 <int value="3"></int>
+                </list>
+               </tuple>
+              </list>
+              <string role="key" value="_author"></string>
+              <string value=""></string>
+              <string role="key" value="_iDeviceDir"></string>
+              <string value="rubrics"></string>
+              <string role="key" value="_purpose"></string>
+              <string value=""></string>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="_typeName"></string>
+              <unicode value="Rubric"></unicode>
+              <string role="key" value="_valid"></string>
+              <bool value="1"></bool>
+              <string role="key" value="class_"></string>
+              <unicode value="Rubric"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+              <int value="1"></int>
+              <string role="key" value="fields"></string>
+              <list>
+               <instance class="exe.engine.field.TextAreaField" reference="18">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <unicode value="2774_2"></unicode>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="17"></reference>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="anchor_names"></string>
+                 <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="content_w_resourcePaths"></string>
+                 <unicode content="true" value="&lt;table class='exe-table'&gt;&lt;caption&gt;Rúbrica: Autocuidados y accidentabilidad&lt;/caption&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Medalla de oro&lt;/th&gt;&lt;th&gt;Medalla de plata&lt;/th&gt;&lt;th&gt;Medalla de bronce&lt;/th&gt;&lt;th&gt;Hay que trabajar&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;Proteger y Avisar&lt;/th&gt;&lt;td&gt;Protege tanto al herido como así mismo de posibles daños y avisa para solicitar ayuda. &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Protege al herido y avisa a los servicios sanitarios. &lt;span&gt;(1.75)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Protege al herido pero no solicita ayuda. &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Actúa sin tener en cuenta la seguridad del individuo ni la suya propia. &lt;span&gt;(1.25)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Socorrer&lt;/th&gt;&lt;td&gt;Realiza las técnicas de manera efectiva. &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Realiza las técnicas correctamente pero duda o lo realiza con lentitud. &lt;span&gt;(1.75)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Reacciona ante la emergencia pero tiene algún fallo en su actuación. &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No sabe cómo reaccionar ante la emergencia. &lt;span&gt;(1.25)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Trabajo en grupo&lt;/th&gt;&lt;td&gt;Todos los componentes del grupo participan con la misma responsabilidad y eficacia. &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Todos los componentes participan pero algunos tienen más peso que otros. &lt;span&gt;(1.75)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Los componentes tienen una participación muy diferente. &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt; Hay componentes que no participan. &lt;span&gt;(1.25)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Uso positivos de las TIC&lt;/th&gt;&lt;td&gt;Elabora todas las propuestas que tiene que realizar a través de las distintas herramientas digitales. &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Elabora casi todas las propuestas que debe realizar a través de las TIC. &lt;span&gt;(1.75)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Elabora muy pocas propuestas a través de las distintas herramientas digitales. &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No elabora ninguna de las propuestas digitales. &lt;span&gt;(1.25)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul class=&quot;exe-rubric-strings&quot;&gt;&lt;li class=&quot;activity&quot;&gt;Actividad&lt;/li&gt;&lt;li class=&quot;name&quot;&gt;Nombre&lt;/li&gt;&lt;li class=&quot;date&quot;&gt;Fecha&lt;/li&gt;&lt;li class=&quot;score&quot;&gt;Puntuación&lt;/li&gt;&lt;li class=&quot;notes&quot;&gt;Notas&lt;/li&gt;&lt;li class=&quot;reset&quot;&gt;Reiniciar&lt;/li&gt;&lt;li class=&quot;print&quot;&gt;Imprimir&lt;/li&gt;&lt;li class=&quot;apply&quot;&gt;Aplicar&lt;/li&gt;&lt;li class=&quot;newWindow&quot;&gt;Ventana nueva&lt;/li&gt;&lt;/ul&gt;"></unicode>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                 <int value="3"></int>
+                 <string role="key" value="htmlTag"></string>
+                 <string value="div"></string>
+                 <string role="key" value="images"></string>
+                 <instance class="exe.engine.galleryidevice.GalleryImages">
+                  <dictionary>
+                   <string role="key" value=".listitems"></string>
+                   <list></list>
+                   <string role="key" value="idevice"></string>
+                   <reference key="18"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="intlinks_to_anchors"></string>
+                 <dictionary></dictionary>
+                 <string role="key" value="nextImageId"></string>
+                 <int value="0"></int>
+                 <string role="key" value="parentNode"></string>
+                 <reference key="13"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="icon"></string>
+              <unicode value=""></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="15"></unicode>
+              <string role="key" value="ideviceCategory"></string>
+              <unicode value="Other Contents"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="nextFieldId"></string>
+              <int value="3"></int>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parentNode"></string>
+              <reference key="13"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="2"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Creciendo%20en%20salud:Nos%20organizamos:Autocuidados%20y%20accidentabilidad%20"></string>
+           <string role="key" value="parent"></string>
+           <reference key="9"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="2"></unicode>
+   <reference key="9"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="13"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value="- Potenciar la promoción de la salud a través de los documentos prescriptivos del centro.
+- Promover el trabajo transversal desarrollado en las distintas líneas de intervención a través de las distintas áreas curriculares.
+- Aprovechar los contenidos curriculares relacionados con los hábitos de vida saludable, de las distintas áreas curriculares."></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="13"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value="Antonio Vicho Rubio, Matilde Tejeda, María Isabel Barbancho, Anastasia González y María José Cuevas para Programa CREA (Innovated)."></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value="REA interdisciplinar de proyecto CREA destinado a dar respuesta a la necesidad real, detectada en los alumnos de nuestro centro, de educar en hábitos de vida saludables. Los alumnos tienen como reto la creación de una guía saludable para ellos y sus compañeros."></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value="Creciendo en salud"></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="16"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <unicode value="&lt;script type=&quot;text/javascript&quot; src=&quot;//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5284973f565cc829&quot;&gt;&lt;/script&gt; 
+&lt;div style=&quot;display: flex; justify-content: center;&quot; class=&quot;addthis_inline_share_toolbox&quot;&gt;&lt;/div&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Programa &lt;a href=&quot;https://programacrea.educarex.es&quot; target=&quot;_blank&quot;&gt;CREA&lt;/a&gt; (Creación de Recursos Educativos Abiertos)&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Secretaría General de Educación. Consejería de Educación, Ciencia y Formación Profesional&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Junta de Extremadura&lt;/span&gt;&lt;/p&gt;
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-55163028-1&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55163028-1');
+&lt;/script&gt;
+&lt;script&gt;
+$(&quot;#packageLicense a&quot;).click(function(){
+window.open(this.href);
+return false;
+});
+&lt;/script&gt;
+&lt;script&gt;
+$(function(){
+$(&quot;a.definition-tt&quot;).click(function(){
+return false;
+})
+});
+&lt;/script&gt;
+  &lt;script&gt;
+    $(function() {
+        $(document).on('click', '.muestraOcultaSiguiente', function(){
+          $(this).toggleClass('visible');
+        });
+       $(document).on('click', '.clicable + *', function() {
+            var elementoAnterior = $(this).prev('.clicable');
+            if (elementoAnterior.hasClass('muestraOcultaSiguiente')) {
+                elementoAnterior.toggleClass('visible');
+            }
+       });
+    });
+  &lt;/script&gt;
+&lt;script&gt;
+
+function ordenaTabla(table,n,tipo='str') {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+ 
+  //table debe ser un elemento tipo table. Se puede obtener, por ejemplo, con un document.getElementById(id);
+  switching = true;
+  //Dirección para ordenar: ascendente:
+  dir = &quot;asc&quot;;
+ 
+  /*Iterar hasta que no se haga ningún intercambio de filas:*/
+  while (switching) {
+    //empieza la iteración, y no se ha hecho intercambio:
+    switching = false;
+    rows = table.rows;
+    /*Recorrer todas las filas salvo la primera, que contiene los encabezados*/
+    for (i = 1; i &lt; (rows.length - 1); i++) {
+      //al empezar a comparar, decimos que no has necesidad de intercambiar:
+      shouldSwitch = false;
+      /*tomamos los elementos a comparar: de la fila actual y de la siguiente:*/
+      x = rows[i].getElementsByTagName(&quot;TD&quot;)[n];
+      y = rows[i + 1].getElementsByTagName(&quot;TD&quot;)[n];
+      /*comprobar si hay que hacer el intercambio (según el orden ASC o DESC que toque):*/
+      if (dir == &quot;asc&quot;) {
+        if ((tipo==&quot;str&quot; &amp;&amp; x.innerHTML.toLowerCase() &gt; y.innerHTML.toLowerCase()) || (tipo==&quot;int&quot; &amp;&amp; parseFloat(x.innerHTML) &gt; parseFloat(y.innerHTML))) {
+          //si hay que intercambiar, marcamos y salimos del bucle
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == &quot;desc&quot;) {
+        if ((tipo==&quot;str&quot; &amp;&amp; x.innerHTML.toLowerCase() &lt; y.innerHTML.toLowerCase()) || (tipo==&quot;int&quot; &amp;&amp; parseFloat(x.innerHTML) &lt; parseFloat(y.innerHTML))) {
+          //es como el caso ascendente: si hay que intercambiar, marcamos y salimos del bucle
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /*Hemos marcado que se debe intercambiar. Lo hacemos y marcamos que se ha hecho el cambio*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Cada vez que intercambiamos filas, incrementamos el contador en 1:
+      switchcount ++;
+    } else {
+      /*Si no se ha cambiado nada y la dirección es ASC, es porque habría que poner DESC. Volvemos a ejecutar el bucle.*/
+      if (switchcount == 0 &amp;&amp; dir == &quot;asc&quot;) {
+        dir = &quot;desc&quot;;
+        switching = true;
+      }
+    }
+  }
+}
+/**
+ * Función para ordenar una tabla... tiene que recibir el id de la tabla, el número de columna a
+ * ordenar y el tipo de orden si la columna es de números
+ * @param int n
+ * @param str tipo - ['str'|'int'], por defecto cadena (str)
+ * Código modificado de https://www.lawebdelprogramador.com/codigo/JavaScript/5203-Ordenar-una-tabla.html,
+ * que es una modificación de https://www.w3schools.com/howto/howto_js_sort_table.asp
+ */
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        
+        var tables = document.querySelectorAll('.tabla-ordenable');
+
+        tables.forEach(function (table) {
+			var shouldNumber = table.classList.contains('numerada'); // Verificar si hay que ordenar
+            var rows = table.querySelectorAll('tr');
+            var rowIndex = 0;
+			if (shouldNumber) {//Añadimos los números de fila
+				rows.forEach(function (row) {
+					if (rowIndex === 0) {
+						var headerCell = document.createElement('th');
+                                                headerCell.classList.add('numero-fila'); // Agregar la clase para alinear 
+						headerCell.textContent = 'n.';
+						row.insertBefore(headerCell, row.firstElementChild);
+					} else {
+						var cell = document.createElement('td');
+						cell.textContent = rowIndex;
+						cell.classList.add('numero-fila'); // Agregar la clase para alinear a la derecha
+						row.insertBefore(cell, row.firstElementChild);
+					}
+					rowIndex++;
+				});
+			}
+			var headers = table.querySelectorAll('th');
+
+			headers.forEach(function (header, index) {
+				header.addEventListener('click', function () {
+					if (index === 0 &amp;&amp; shouldNumber) {//se ordenan como números cuando se han puesto números de línea
+						ordenaTabla(table,index,'int')
+					} else {
+						ordenaTabla(table,index);}
+				});
+				});
+			
+            });   
+    });
+&lt;/script&gt;"></unicode>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="other"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="school"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="OBJETIVOS: - Potenciar la promoción de la salud a través de los documentos prescriptivos del centro.
+- Promover el trabajo transversal desarrollado en las distintas líneas de intervención a través de las distintas áreas curriculares.
+- Aprovechar los contenidos curriculares relacionados con los hábitos de vida saludable, de las distintas áreas curriculares."></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.descriptionSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="REA interdisciplinar de proyecto CREA destinado a dar respuesta a la necesidad real, detectada en los alumnos de nuestro centro, de educar en h\xc3\xa1bitos de vida saludables. Los alumnos tienen como reto la creaci\xc3\xb3n de una gu\xc3\xada saludable para ellos y sus compa\xc3\xb1eros."></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Creciendo en salud"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <none></none>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2024-03-07T08:47:01.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Antonio Vicho Rubio, Matilde Tejeda, Mar\xc3\xada Isabel Barbancho, Anastasia Gonz\xc3\xa1lez y Mar\xc3\xada Jos\xc3\xa9 Cuevas para Programa CREA (Innovated). EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2024-03-06T08:46:29.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Antonio Vicho Rubio, Matilde Tejeda, Mar\xc3\xada Isabel Barbancho, Anastasia Gonz\xc3\xa1lez y Mar\xc3\xada Jos\xc3\xa9 Cuevas para Programa CREA (Innovated). EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="presencial"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="classroom"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="OBJETIVOS: - Potenciar la promoción de la salud a través de los documentos prescriptivos del centro.
+- Promover el trabajo transversal desarrollado en las distintas líneas de intervención a través de las distintas áreas curriculares.
+- Aprovechar los contenidos curriculares relacionados con los hábitos de vida saludable, de las distintas áreas curriculares."></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.learningResourceTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.learningResourceTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="real project"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <unicode value="REA interdisciplinar de proyecto CREA destinado a dar respuesta a la necesidad real, detectada en los alumnos de nuestro centro, de educar en hábitos de vida saludables. Los alumnos tienen como reto la creación de una guía saludable para ellos y sus compañeros."></unicode>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="My Catalog"></string>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="4a7d755e-34a5-410a-a7d4-601881136623"></string>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.keywordSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="Innovated"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.keywordSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="Programa CREA"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.keywordSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="Salud"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.keywordSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <unicode value="Educación Física"></unicode>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.keywordSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="string"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.LangStringSub">
+           <dictionary>
+            <string role="key" value="language"></string>
+            <string value="es"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="CCNN"></string>
+           </dictionary>
+          </instance>
+         </list>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <instance class="exe.engine.lom.lomsubs.titleSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="newPackage"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="Creciendo en salud"></string>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="title"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <instance class="exe.engine.lom.lomsubs.lifeCycleSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2024-03-07T08:47:01.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.descriptionSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <unicode value="Fecha de creación de los metadatos"></unicode>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="date"></string>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.VCardSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <unicode value="BEGIN:VCARD VERSION:3.0 FN:Antonio Vicho Rubio, Matilde Tejeda, María Isabel Barbancho, Anastasia González y María José Cuevas para Programa CREA (Innovated). EMAIL;TYPE=INTERNET: ORG: END:VCARD"></unicode>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="author"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="status"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="lifeCycle"></string>
+      <string role="key" value="version"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2024-03-06T08:46:29.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.descriptionSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <unicode value="Fecha de creación de los metadatos"></unicode>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="date"></string>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.VCardSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <unicode value="BEGIN:VCARD VERSION:3.0 FN:Antonio Vicho Rubio, Matilde Tejeda, María Isabel Barbancho, Anastasia González y María José Cuevas para Programa CREA (Innovated). EMAIL;TYPE=INTERNET: ORG: END:VCARD"></unicode>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleMetaSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleMetaValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="Default"></string>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="creative commons: attribution - share alike"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <instance class="exe.engine.lom.lomsubs.technicalSub">
+     <dictionary>
+      <string role="key" value="duration"></string>
+      <none></none>
+      <string role="key" value="format"></string>
+      <list></list>
+      <string role="key" value="installationRemarks"></string>
+      <none></none>
+      <string role="key" value="location"></string>
+      <list></list>
+      <string role="key" value="otherPlatformRequirements"></string>
+      <instance class="exe.engine.lom.lomsubs.otherPlatformRequirementsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="string"></string>
+        <list>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value=""></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value=""></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value=""></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value=""></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.lom.lomsubs.LangStringSub">
+          <dictionary>
+           <string role="key" value="language"></string>
+           <string value="es"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="editor: eXe Learning"></string>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <string role="key" value="requirement"></string>
+      <list></list>
+      <string role="key" value="size"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="technical"></string>
+     </dictionary>
+    </instance>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="printDir"></string>
+  <none></none>
+  <string role="key" value="release"></string>
+  <string value="2.9"></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="0232377c811a55196ea195f68b7993c5"></string>
+   <list>
+    <reference key="5"></reference>
+   </list>
+   <string role="key" value="17a6f9c17df7dff65dbdcb387c417de9"></string>
+   <list>
+    <reference key="16"></reference>
+   </list>
+   <string role="key" value="1e914ba27aa97a6b8fb7fa92017439eb"></string>
+   <list>
+    <reference key="6"></reference>
+   </list>
+   <string role="key" value="4fdd4a6843e73052dac9532b483a06fd"></string>
+   <list>
+    <reference key="15"></reference>
+   </list>
+   <string role="key" value="94f3d8c5740b5ffb989a20d5bc74fcff"></string>
+   <list>
+    <reference key="10"></reference>
+   </list>
+   <string role="key" value="fb2283ea557fed1c31bff48e6c21d9b6"></string>
+   <list>
+    <reference key="14"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="4"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
